@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signup Form</title>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <style>
+        .left{
+            font-size: 0.8em;
+        }
+        .right label{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8em;
+        }
+        .right label a{
+            color:rgb(134, 233, 250);
+            font-weight: 600;
+        }
+
+    </style>
+    <div class="container">
+        <div class="form-box">
+            <div class="form-value">
+                <form id="signupForm">
+                    <h2>Signup</h2>
+                    <div class="inputbox">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input type="username" autocomplete="off" id="userNameSignUp" required>
+                        <label for="">Create Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="userPasswordSignUp" required>
+                        <label for="">Create Password</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" id="userPasswordRepeatSignUp" required>
+                        <label for="">Repeat  Password</label>
+                    </div>
+
+                    <button class="btn-signUp" >Create</button>
+                    <div class="bottom">
+                        <div class="left">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember Me</label>
+                        </div>
+                        <div class="right">
+                            <label><p>Already have an account?</p><a href="./log-in.html">Log in.</a></label>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+   <script src="./js/sign-up.js"></script>
+</body>
+</html>
