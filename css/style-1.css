@@ -616,7 +616,7 @@ background-color: white;
 .inputbox{
   gap: 1px;
   position: relative;
-  margin: 15px 0;
+  margin: 10px 0;
   width: 310px;
   border-bottom: 2px solid #fff;
 }
