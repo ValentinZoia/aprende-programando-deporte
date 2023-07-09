@@ -4,7 +4,7 @@ const username = urlParams.get('username');
 
 
 const userNameView = document.querySelector('.userNameView');
-const linkAcount= document.querySelector('.linkAcount');
+const linkAcount= document.querySelector('#linkAcount');
 
 
 console.log(username)
@@ -15,8 +15,10 @@ if(username == null){
     userNameView.innerHTML = username;
     linkAcount.innerHTML = username;
     linkAcount.removeAttribute("href");
+    linkAcount.style.setProperty("border", "none"); 
 
 }
+
 
 
 
