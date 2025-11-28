@@ -1,0 +1,13 @@
+{
+  "title": "🏃Free Sports Project",
+  "description": "It is a landing page, an initiative aimed at helping children or teenagers who don’t have the opportunity to practice their favorite sport or who lack access to proper sports facilities, qualified coaches, or the necessary equipment to participate in organized sports.",
+  "preview": "assets/img/deporte-1.png",
+  "screenshots": [
+    "assets/img/deporte-1.png",
+    "assets/img/deporte-2.png",
+    "assets/img/deporte-3.png",
+    "assets/img/deporte-3.png"
+  ],
+  "tags": ["html","css","javascript"],
+  "published": true
+} 
